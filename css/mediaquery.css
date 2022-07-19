@@ -1,0 +1,216 @@
+@media(max-width:1200px) {
+    .navbar-logo {
+        margin-right: 20px;
+    }
+
+    .mahsolat {
+        border: none !important;
+    }
+}
+
+
+@media(max-width:992px) {
+    .pre-nav {
+        display: none;
+    }
+
+    .nav-content,
+    .share,
+    .fa-user {
+        display: none;
+    }
+
+    .header-ad img {
+        width: 80vw;
+        margin-right: 100px !important;
+    }
+
+    .header-menu-burger {
+        display: block;
+        margin-right: 20px;
+    }
+
+
+
+    .navbar-logo {
+        display: none;
+    }
+
+    .ad-section-1,
+    .ad-section-2 {
+        display: none;
+    }
+
+    .first-two-ads {
+        display: none;
+    }
+
+    .img-container-b img {
+        width: 370px !important;
+        height: 250px;
+    }
+
+    .ad-section-left {
+        display: none;
+    }
+
+    .pagination {
+        position: absolute;
+        left: 0;
+    }
+
+    .page-number {
+        position: absolute;
+        left: 50%;
+    }
+
+    .box-text-container-b {
+        margin-right: 200px;
+    }
+
+    .date-text-b {
+        display: none;
+    }
+
+    .img-container-2 img , .img-container-3 img{
+        width: 150px;
+    }
+
+    .box-text-container-2 , .box-text-container-3{
+        margin-left:14px ;
+    }
+
+    
+
+    .purchase-guide-1 {
+        display: initial !important;
+
+    }
+    .gaming-phones-og {
+        width: 100% !important;
+    }
+
+
+    .phone-guide-android {
+        margin-top: 50px;
+    }
+
+    .bottom-line-101{
+        width: 100%;
+    }
+
+    .box-container-guide-content{
+        display: grid ;
+        flex-direction: column;
+        grid-template-columns: repeat(2,400px);
+        grid-template-rows: repeat(2,auto);
+    }
+
+    .box-guide{
+        width: 60% !important;
+    }
+
+    .footer-content{
+        display: initial !important;
+    }
+
+    .whatpeople-read ,.stay-away-technology ,.whatpeople-follow,.zoomit-family{
+       width: 100%;
+      
+    }
+    
+}
+
+@media (max-width:768px) {
+    .header-menu-burger {
+        display: inline-block;
+    }
+
+    .header-ad {
+        margin-top: 40px;
+        margin-right: 100px !important;
+    }
+
+    .nav-content {
+        display: none !important;
+        width: 100%;
+    }
+
+    .suggestion-box {
+        overflow-x: scroll;
+    }
+
+    .right-side-ads{
+        display: none !important;
+    }
+
+    .matleb-jadidi{
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width:767.98px) {
+    .container-2-3 {
+        width: 100%;
+        float: none;
+        margin-right: 0px;
+    }
+
+    .mac-book,
+    .msi {
+        width: 100% !important;
+
+    }
+
+    .M2,
+    .best-gaming {
+        float: none;
+        width: 100%;
+    }
+
+    .best-gaming {
+        margin-top: 150px;
+    }
+
+    .apple-phone {
+        width: 100% !important;
+        margin-top: 140px !important;
+    }
+
+    .last-header-ad a img {
+        display: none;
+    }
+
+    .sardabir-suggestions {
+        margin-top: 400px;
+    }
+
+    .item-body a p {
+        font-size: 10px;
+    }
+
+
+    .ad-section-1,
+    .ad-section-2 {
+        display: none;
+    }
+
+    .last-header-ad a img {
+        position: relative;
+        right: 100px !important;
+        margin-top: 250px;
+    }
+
+    .header-ad {
+        width: 50%;
+    }
+}
+
+
+@media(max-width:576px) {
+    .header-ad {
+        display: none;
+    }
+}

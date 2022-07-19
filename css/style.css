@@ -1,0 +1,1818 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background: #f0f0f0 !important;
+    width: 1500px !important;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@font-face {
+    font-family: Iransans;
+    src: url(../font/Sans\ a4fran3.ttf);
+}
+
+/* 
+p{
+    margin-bottom: 0 !important;
+} */
+
+
+.pre-nav {
+    background-color: #242424;
+    width: 100%;
+
+}
+
+.pre-nav-content {
+    position: relative;
+}
+
+.left-side-btn {
+    width: 20%;
+    padding: 2px;
+}
+
+.left-side-btn button {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.left-side-btn button a {
+    text-decoration: none;
+    color: #a1a0a0;
+    font-family: Iransans;
+    font-size: 7px;
+    transition: 0.3s color;
+}
+
+
+.left-side-btn button a:hover {
+    color: #fff;
+}
+
+.right-side-list {
+    position: absolute;
+    right: 17%;
+    top: 0;
+}
+
+.right-side-list ul li {
+
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.right-side-list ul li a {
+    color: #a1a0a0;
+    text-decoration: none;
+    font-family: Iransans;
+    font-size: 7px;
+    transition: 0.3s color;
+}
+
+.right-side-list ul li a:hover {
+    color: #fff;
+}
+
+
+.navbar {
+    width: 100%;
+    background-color: #000;
+    font-family: Iransans;
+    margin-top: 0 !important;
+}
+
+.left-side-social-media {
+    margin-left: 25px;
+    width: 20%;
+}
+
+.search-icon a {
+    color: transparent !important;
+}
+
+.fa-search {
+    font-size: 12px !important;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.fa-share-alt {
+    font-size: 14px !important;
+    color: #fff;
+}
+
+.fa-user {
+    margin-left: 10px;
+}
+
+.header-menu-burger {
+    direction: rtl;
+    display: none;
+    background-color: rgb(12, 1, 1);
+    border: none;
+    line-height: 30px;
+}
+
+
+.fa-bars {
+    color: #fff;
+}
+
+
+.main-nav {
+    direction: rtl;
+}
+
+.main-nav ul li {
+    display: inline-block;
+}
+
+.nav-content {
+    position: absolute;
+    top: 15%;
+    right: 13%;
+    display: inline-block;
+
+}
+
+.nav-content button {
+    margin-right: 9px;
+}
+
+
+
+.show {
+    display: inline-block;
+}
+
+.mahsolat {
+    background-color: #404040;
+    padding: 0px 9px;
+    border-radius: 18px;
+    transition: 0.3s background;
+
+}
+
+.mahsolat:hover {
+    background-color: red;
+}
+
+.mahsolat a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+    transition: 0.2s color;
+}
+
+.mahsolat a:hover {
+    color: #fff;
+}
+
+.drop-down-zoomit {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+
+.drop-down-zoomit span {
+    color: #fff;
+    font-size: 10px;
+}
+
+.dropdown-content-zoomit {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.drop-down-zoomit:hover .dropdown-content-zoomit {
+    display: block;
+
+}
+
+.zoomit-list {
+    display: block;
+}
+
+
+.zoomit-list li {
+    font-size: 9px !important;
+    width: 50px;
+    transition: 0.3s underline;
+
+}
+
+.zoomit-list li:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.drop-down-fanavari {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+
+.drop-down-fanavari span {
+    color: #fff;
+    font-size: 10px;
+}
+
+.dropdown-content-zoomit-fanavari {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 600px;
+    max-height: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.drop-down-fanavari:hover .dropdown-content-zoomit-fanavari {
+    display: block;
+
+}
+
+
+
+.phone {
+    position: relative;
+    width: 100px;
+}
+
+
+.phone h5 {
+    font-size: 8px !important;
+    font-weight: 800;
+}
+
+.phone p {
+    font-size: 7px;
+    line-height: 5px;
+    transition: 0.2s underline;
+}
+
+.phone p:hover {
+    text-decoration: underline;
+}
+
+.hardware {
+    position: relative;
+    right: 70px;
+    bottom: 227px;
+    width: 100px;
+    margin-right: 20px;
+
+}
+
+
+.hardware h5 {
+    font-size: 9px !important;
+    font-weight: 800;
+}
+
+.hardware p {
+    font-size: 7px;
+    width: 100px;
+    line-height: 5px;
+    transition: 0.2s underline;
+}
+
+.hardware p:hover {
+    text-decoration: underline;
+}
+
+
+
+.soti-tasviri {
+    position: relative;
+    right: 170px;
+    bottom: 436px;
+    width: 100px;
+    margin-right: 20px;
+
+}
+
+
+.soti-tasviri h5 {
+    font-size: 9px !important;
+    font-weight: 800;
+}
+
+.soti-tasviri p {
+    font-size: 7px;
+    width: 100px;
+    line-height: 6px;
+    transition: 0.2s underline;
+}
+
+.soti-tasviri p:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+.amozesh {
+    position: relative;
+    right: 240px;
+    bottom: 520px;
+    width: 100px;
+    margin-right: 40px;
+
+}
+
+
+.amozesh h5 {
+    font-size: 9px !important;
+    font-weight: 800;
+    margin-bottom: 13px;
+}
+
+.amozesh p {
+    font-size: 7px;
+    width: 100px;
+    line-height: 6px;
+    transition: 0.2s underline;
+}
+
+.amozesh p:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.house-stuff {
+    position: relative;
+    right: 350px;
+    bottom: 670px;
+    width: 100px;
+    margin-right: 40px;
+
+}
+
+
+.house-stuff h5 {
+    font-size: 9px !important;
+    font-weight: 800;
+    margin-bottom: 13px;
+}
+
+.house-stuff p {
+    font-size: 7px;
+    width: 100px;
+    line-height: 6px;
+    transition: 0.2s underline;
+}
+
+.house-stuff p:hover {
+    text-decoration: underline;
+}
+
+
+
+.baresi-drop-down {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+
+.baresi-drop-down span {
+    color: #fff;
+    font-size: 10px;
+}
+
+.dropdown-content-baresi {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    max-height: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.baresi-drop-down:hover .dropdown-content-baresi {
+    display: block;
+
+}
+
+.baresi-list {
+    width: 120px;
+    text-align: right;
+}
+
+
+.baresi-list li {
+    list-style-type: none;
+}
+
+.baresi-list li a {
+    text-decoration: none;
+    font-size: 9px !important;
+    color: #000;
+    transition: 0.3s underline;
+}
+
+
+.baresi-list li a:hover {
+    text-decoration: underline;
+}
+
+
+
+.video-dropdown {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+
+.video-dropdown span {
+    font-size: 10px;
+    color: #f9f9f9;
+}
+
+.video-content-drop {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    max-height: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.video-dropdown:hover .video-content-drop {
+    display: block;
+
+}
+
+.video-list {
+    width: 120px;
+    text-align: right;
+}
+
+.video-list li {
+    list-style-type: none;
+}
+
+.video-list li a {
+    text-decoration: none;
+    font-size: 9px;
+    color: #000;
+    transition: 0.3s underline;
+}
+
+.video-list li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.khodro {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+
+.khodro span {
+    font-size: 10px;
+    color: #f9f9f9;
+}
+
+.khodro-content-drop {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    max-height: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.khodro:hover .khodro-content-drop {
+    display: block;
+
+}
+
+.khodro-list {
+    width: 120px;
+    text-align: right;
+}
+
+.khodro-list li {
+    list-style-type: none;
+}
+
+.khodro-list li a {
+    text-decoration: none;
+    font-size: 9px;
+    color: #000;
+    transition: 0.3s underline;
+}
+
+.khodro-list li a:hover {
+    text-decoration: underline;
+}
+
+.purchase-guide {
+    background-color: transparent;
+    border: none;
+}
+
+.purchase-guide a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.elmi {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+
+.elmi span {
+    font-size: 10px;
+    color: #f9f9f9;
+}
+
+.elmi-content-drop {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    max-height: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.elmi:hover .elmi-content-drop {
+    display: block;
+
+}
+
+.elmi-list {
+    width: 120px;
+    text-align: right;
+
+}
+
+.elmi-list li {
+    list-style-type: none;
+
+}
+
+.elmi-list li a {
+    text-decoration: none;
+    font-size: 9px;
+    color: #000;
+    transition: 0.3s underline;
+}
+
+.elmi-list li a:hover {
+    text-decoration: underline;
+}
+
+
+
+.kasbo-kar {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+
+.kasbo-kar span {
+    font-size: 10px;
+    color: #f9f9f9;
+}
+
+.kasbo-kar-content-drop {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 150px;
+    max-height: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.kasbo-kar:hover .kasbo-kar-content-drop {
+    display: block;
+
+}
+
+.kasb-list {
+    width: 120px;
+    text-align: right;
+
+}
+
+.kasb-list li {
+    list-style-type: none;
+
+}
+
+.kasb-list li a {
+    text-decoration: none;
+    font-size: 9px;
+    color: #000;
+    transition: 0.3s underline;
+}
+
+.kasb-list li a:hover {
+    text-decoration: underline;
+}
+
+
+
+.zoom-plus {
+    border: none;
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+
+.zoom-plus span {
+    font-size: 10px;
+    color: #f9f9f9;
+}
+
+.zoom-plus-content-drop {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 40px;
+    max-height: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.zoom-plus:hover .zoom-plus-content-drop {
+    display: block;
+
+}
+
+.zoomplus-list {
+    width: 120px;
+    text-align: right;
+
+}
+
+.zoomplus-list li {
+    list-style-type: none;
+
+}
+
+.zoomplus-list li a {
+    text-decoration: none;
+    font-size: 9px;
+    color: #000;
+    transition: 0.3s underline;
+}
+
+.zoomplus-list li a:hover {
+    text-decoration: underline;
+}
+
+/* -----navbar-finished----- */
+/* -----navbar-finished----- */
+
+.header-ad {
+    margin-left: 150px;
+
+}
+
+.header-ad img {
+    width: 800px;
+}
+
+
+.content-wrapper {
+    direction: rtl;
+    width: 100%;
+    margin-top: 40px;
+    font-family: Iransans;
+
+}
+
+.container-2-3 {
+    width: calc(70% - 10px);
+    height: 90vh;
+    position: relative;
+}
+
+
+.msi {
+    background: url("../image/header-ad/msi-md271pw-monitor-front.jpg") no-repeat center;
+    background-size: cover;
+    width: 60%;
+    height: 68%;
+    z-index: 1;
+    position: relative;
+}
+
+
+
+.msi-news-text article {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    margin-top: 20px;
+}
+
+.msi-news-text article p {
+
+    font-size: 12px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 29px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.apple-phone {
+    background: url("../image/header-ad/iphone-13-pro-max-display.jpg") no-repeat center;
+    background-size: cover;
+    width: 30% !important;
+    height: 28vh;
+    position: relative;
+}
+
+.apple-phone-text article {
+    position: absolute;
+    bottom: 2%;
+    right: 8%;
+    margin-top: 20px;
+}
+
+.apple-phone article p {
+    font-size: 10px !important;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 29px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+.mac-book {
+    background: url("../image/header-ad/macbook-air-m2-side-view-all-colors.jpg") no-repeat center !important;
+    background-size: cover;
+    width: 29.5% !important;
+    height: 28vh;
+    position: relative;
+}
+
+.mac-book-text article {
+    position: absolute;
+    bottom: 2%;
+    right: 8%;
+    margin-top: 20px;
+
+}
+
+.mac-book article p {
+    font-size: 10px !important;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 29px;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+.M2 {
+    background: url("../image/header-ad/apple-m2-1.jpg") no-repeat center;
+    background-size: cover;
+    width: 40%;
+    height: 30%;
+    float: left;
+    position: relative;
+}
+
+.M2-text {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+
+.M2-text article p {
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 29px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.best-gaming {
+    background: url("../image/header-ad/best-gaming-phones.jpg") no-repeat center;
+    background-size: cover;
+    width: 40%;
+    height: 70%;
+    float: left;
+    position: absolute;
+    top: 29.3%;
+    left: 0;
+
+}
+
+.best-gaming-text article {
+    position: absolute;
+    bottom: 6%;
+    right: 3%;
+}
+
+.best-gaming-text article p {
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 29px;
+    padding: 0;
+    margin: 0;
+}
+
+.ad-section-1 {
+    width: 26%;
+    position: absolute;
+    left: 0;
+    bottom: -18.5%;
+    min-height: 50vh;
+}
+
+.ad-section-2 {
+    width: 26%;
+    position: absolute;
+    left: 0;
+    bottom: -70%;
+    margin-bottom: 80px;
+    min-height: 50vh;
+
+}
+
+.last-header-ad {
+    margin-top: 70px !important;
+    margin-right: 70px;
+
+}
+
+.last-header-ad a img {
+    width: 90vw;
+}
+
+
+/* -main section begins after this comment ---*/
+
+.main {
+    font-family: Iransans;
+    margin-top: 80px;
+}
+
+
+
+.title {
+    direction: rtl;
+    font-size: 16px;
+}
+
+.item-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.item-1 img {
+    width: 17vw;
+    height: 23vh;
+}
+
+.item-body a {
+    text-decoration: none;
+    width: 100px;
+}
+
+.item-body a p {
+    font-size: 12px;
+    color: #333;
+    transition: 0.3s color;
+}
+
+.item-body a p:hover {
+    color: rgb(253, 36, 36);
+}
+
+/* ---new-stuff section */
+
+
+.new-stuff {
+    width: 100%;
+    margin-top: 70px;
+    font-family: Iransans;
+}
+
+.ad-section-left {
+    float: right;
+    position: relative;
+    width: 20%;
+
+}
+
+.tutorial-title {
+    text-align: right;
+    margin-right: 20px !important;
+    background-color: #f5f5f5;
+    width: 93%;
+    margin-left: 8px;
+}
+
+
+.tutorial-title h2 {
+    font-size: 11px;
+    padding: 5px 5px 10px;
+    margin-bottom: 0 !important;
+}
+
+.tutorial-contianer {
+    width: 93%;
+    height: 140vh !important;
+    background-color: #fff;
+    margin-left: 8px;
+}
+
+.item-tut {
+    width: 100%;
+    height: 17vh;
+    border-bottom: 0.5px solid rgb(228, 225, 225);
+    position: relative;
+}
+
+.img-tut {
+    float: right;
+}
+
+.tut-text {
+    width: 65%;
+    direction: rtl;
+    text-align: right;
+    padding: 8px;
+}
+
+.tut-text p {
+    font-size: 9px;
+    font-weight: normal;
+    color: #333;
+    transition: 0.2s color;
+}
+
+.tut-text p:hover {
+    color: #f00606;
+    cursor: pointer;
+}
+
+.enter-discusion {
+    margin-top: 50px !important;
+}
+
+.enter-title {
+    direction: rtl;
+    margin-right: 10px;
+}
+
+.enter-title h2 {
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.enter-discusion-content {
+    width: 93%;
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.diss-box {
+    width: 100%;
+    height: 13vh;
+    border-bottom: 0.5px solid rgb(228, 225, 225);
+
+}
+
+.img-diss {
+    float: right;
+    padding-top: 10px;
+}
+
+.img-diss img {
+    width: 40px;
+}
+
+.diss-text {
+    width: 70%;
+    padding-top: 11px;
+    direction: rtl;
+    text-align: right;
+}
+
+.diss-text p {
+    font-size: 9px;
+    transition: 0.3s color;
+}
+
+.diss-text p:hover {
+    color: #f00606;
+    cursor: pointer;
+}
+
+/* --left-section ends here---- */
+
+.right-side-ads {
+    width: 20%;
+    font-family: Iransans;
+}
+
+.lol-2 {
+    margin-top: 9px;
+}
+
+.lol-3 {
+    margin-top: 9px;
+}
+
+
+
+.most-view-title {
+    text-align: right;
+    margin-left: 5px;
+    background-color: #f5f5f5;
+    width: 96%;
+    margin-left: 10px;
+}
+
+.most-view-title p {
+    font-size: 11px;
+    padding: 5px 5px 10px;
+    margin-bottom: 0 !important;
+}
+
+
+.item-view {
+    width: 15rem;
+    background-color: #fff;
+    position: relative;
+    height: 50%;
+    margin-left: 10px;
+}
+
+.item-view img {
+    width: 100%;
+
+}
+
+.item-view-caption {
+    width: 83%;
+    text-align: end;
+}
+
+.item-view-caption a {
+    text-decoration: none;
+    color: #000;
+    font-size: 9.5px;
+    transition: 0.3s color;
+
+}
+
+.item-view-caption a:hover {
+    color: red;
+}
+
+
+/* ---right-side-ad & content-viewed end here---- */
+
+.matleb-jadidi {
+    width: 60%;
+    background-color: #fff !important;
+    position: relative;
+}
+
+.title-matlab {
+    direction: rtl;
+    width: 100%;
+    margin-right: 20px;
+    background-color: #f5f5f5;
+    padding: 13px 10px 15px;
+    margin-bottom: -12px !important;
+    line-height: 14px;
+    margin-top: 0;
+}
+
+
+.title-matlab h2 {
+    font-size: 15px;
+}
+
+
+.content-matlab-jadid {
+    display: flex;
+    justify-content: center;
+
+}
+
+.box-1 {
+    width: 35rem !important;
+    font-family: Iransans;
+    position: relative;
+    padding: 5px;
+}
+
+.img-container-1 {
+    float: right;
+    margin-top: 20px;
+}
+
+.box-text-container {
+    width: 60%;
+    margin-right: 10px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.box-text-container span {
+    font-size: 12px;
+}
+
+.box-text-container a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14.2px;
+    transition: 0.3s color;
+}
+
+.box-text-container a:hover {
+    color: #f00606;
+}
+
+.date-text {
+    color: #999;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.last-b-text {
+    font-size: 10px;
+}
+
+.divider-01 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.box-2 {
+    width: 35rem !important;
+    font-family: Iransans;
+    position: relative;
+}
+
+.img-container-2 {
+    float: right;
+    margin-top: 20px;
+}
+
+.box-text-container-2 {
+    width: 60%;
+    margin-right: 10px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.box-text-container-2 span {
+    font-size: 12px;
+}
+
+.box-text-container-2 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14.2px;
+    transition: 0.3s color;
+}
+
+.box-text-container-2 a:hover {
+    color: #f00606;
+}
+
+.date-text-2 {
+    color: #999;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.last-b-text-2 {
+    font-size: 10px;
+}
+
+
+.box-3 {
+    width: 35rem !important;
+    font-family: Iransans;
+    position: relative;
+}
+
+.img-container-3 {
+    float: right;
+    margin-top: 20px;
+}
+
+.box-text-container-3 {
+    width: 60%;
+    margin-right: 10px;
+    text-align: right;
+    margin-top: 20px;
+}
+
+.box-text-container-3 span {
+    font-size: 10px;
+    font-weight: normal;
+    color: #555;
+}
+
+.box-text-container-3 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14.2px;
+    transition: 0.3s color;
+}
+
+.box-text-container-3 a:hover {
+    color: #f00606;
+}
+
+.date-text-3 {
+    color: #999;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.last-b-text-3 {
+    font-size: 10px;
+    word-spacing: 3px;
+}
+
+
+.box-b {
+    width: 35rem !important;
+    font-family: Iransans;
+    position: relative;
+}
+
+.img-container-b img {
+    margin-top: 20px;
+    margin-left: 70px !important;
+}
+
+
+
+
+.date-text-b {
+    color: #999;
+    font-size: 10px;
+    margin-left: 300px;
+}
+
+.last-b-text-b {
+    font-size: 1em;
+    margin-top: 20px;
+
+}
+
+.box-text-container-b p {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.pagination {
+    display: inline-block;
+    position: absolute;
+    left: 263px;
+    margin-top: 12px;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.pagination a.active {
+    background-color: #f80a1e;
+    border-radius: 5px;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.page-number {
+    position: absolute;
+    left: 870px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* ---purchase guide atarting from here---- */
+
+.purchase-guide-1 {
+    margin-top: 100px;
+    width: 100%;
+    direction: rtl;
+    font-family: Iransans;
+    display: flex;
+    flex-direction: row;
+}
+
+.gaming-phones-og {
+    width: 20%;
+    min-height: 120vh;
+    position: relative;
+    background-color: #e51a2d;
+    border: none;
+
+}
+
+.title-og-1 {
+    background-color: #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.title-og-1 h3 {
+    font-size: 18px;
+    color: #f00606;
+}
+
+
+
+.heading-game {
+    padding: 10px;
+}
+
+.heading-game h2 {
+    color: #fff;
+    font-size: 17px;
+
+}
+
+.heading-game p {
+    padding-top: 20px;
+    font-size: 10px;
+    color: #fff;
+}
+
+.bottom-line-101 {
+    color: #fff;
+    font-size: 13px;
+    border-top: 1px solid #fff;
+    position: absolute;
+    bottom: 1%;
+}
+
+.bottom-line-101 p {
+    padding-top: 10px;
+    transition: 0.2s;
+    margin-right: 20px;
+}
+
+.bottom-line-101 p:hover {
+    cursor: pointer;
+}
+
+
+.phone-guide-android {
+    width: 80%;
+    min-height: 120vh;
+    position: relative;
+}
+
+.box-container-guide-content {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.box-guide {
+    width: 33.3%;
+    height: 260px;
+    background-color: #fff;
+    margin: 40px 10px;
+}
+
+.gudie-b-image img {
+    width: 100%;
+    height: 170px;
+}
+
+.guide-b-text {
+    min-width: 100%;
+    text-align: right;
+    margin: 5px 10px;
+
+}
+
+.guide-b-text a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #e51a2d;
+    transition: 0.2s color;
+}
+
+.guide-b-text a:hover {
+    color: #ce0a1e;
+}
+
+.guide-b-text p {
+    font-size: 12px;
+    transition: 0.2s color;
+}
+
+
+.guide-b-text p:hover {
+    color: #ce0a1e;
+
+}
+
+/* ----the look-into section begins here... */
+
+
+
+.look-into {
+    margin-top: 50px;
+    font-family: Iransans;
+}
+
+.look-into-special {
+    width: 100%;
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.look-title {
+    margin-right: 40px;
+}
+
+.look-title h3 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 23px;
+
+}
+
+.right-side-s {
+    width: 50%;
+    min-height: 90vh;
+    margin-right: 20px;
+
+}
+
+.look-in-image {
+    background: url("../image/look-into/msi-md271pw-monitor-front.jpg") no-repeat center;
+    background-size: cover;
+    width: 85%;
+    min-height: 70vh;
+    position: relative;
+}
+
+.right-s-text {
+    position: absolute;
+    bottom: 6%;
+    right: 1%;
+}
+
+.right-s-text P {
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    font-weight: 500;
+    padding: 0;
+
+}
+
+.left-side-s {
+    width: 50%;
+    min-height: 90vh;
+    margin-left: 20px;
+}
+
+.two-left-pic-xiamo {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.first-1 {
+    background: url("../image/look-into/xiaomi-11t-on-his-hands.jpg") no-repeat center;
+    background-size: cover;
+    width: 50%;
+    min-height: 40vh;
+    position: relative;
+    margin-left: 50px;
+}
+
+.second-2 {
+    background: url("../image/look-into/xiaomi-12-pro.jpg") no-repeat center;
+    background-size: cover;
+    width: 50%;
+    min-height: 40vh;
+    position: relative;
+}
+
+.hero-1{
+    position: absolute;
+    bottom: 2%;
+    right: 1%;
+}
+
+.hero-1 p{
+    font-size: 13px;
+    color: #fff;
+    text-shadow: 1px 1px 3px #000;
+    font-weight: 500;
+    padding: 0;
+}
+
+.hero-1:hover{
+    cursor: pointer;
+}
+
+.three-little-pics{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.xiamo-back{
+    width: 33.3%;
+    min-height: 17vh;
+    margin-left: 7px;
+}
+
+.text-back{
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.back-pic img{
+    width: 100%;
+}
+
+.text-back p{
+    font-size: 12px;
+    transition: 0.2s color;
+}
+
+.text-back p:hover{
+ color: red;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: #222;
+    font-family: Iransans;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    width: 100%;
+}
+
+.whatpeople-read{
+    width: 25%;
+}
+
+.whatpeople-read-title{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.whatpeople-read-title h2{
+    color:#fff;
+    font-size: 18px;
+
+}
+
+.read-content{
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+.read-b{
+    width: 100%;
+    height: 14.5vh;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.image-b-o{
+    width: 35%;
+}
+
+.read-b-text{
+    width: 65%;
+    text-align:right;
+}
+
+.read-b-text P{
+   font-size: 11px;
+   color: #aaa;
+   transition: 0.2s;
+}
+
+.read-b-text P:hover{
+    color: red;
+}
+
+.date-content{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 11px;
+}
+
+.stay-away-technology{
+    width: 25%;
+  margin-right: 20px;
+}
+
+
+.stay-away-technology-title{
+    margin-top: 20px;
+    
+}
+
+.stay-away-technology-title h2{
+    color: #fff;
+    font-size: 15px;
+}
+
+
+.whatpeople-follow{
+    width: 25%;
+    margin-right:80px;
+}
+
+.whatpeople-follow-title{
+    margin-top: 20px;
+}
+
+.whatpeople-follow-title h3{
+    font-size: 12px;
+    color: #fff;
+}
+
+.follow-list {
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.follow-list ul li {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+
+.follow-list ul li a{
+    text-decoration: none;
+    color: #aaa;
+    font-size: 10px;
+    transition: 0.2s;
+}
+
+.follow-list ul  li a:hover{
+    color: #f00606;
+    cursor: pointer;
+}
+
+.zoomit-family{
+    width: 25%;
+}
+
+.zoomit-family-title{
+    margin-top: 20px;
+}
+
+.zoomit-family-title P{
+    font-size: 12px;
+    color: #fff;
+}
+
+.zoomit-form h4{
+    font-size: 12px;
+    color: #fff;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+}
+
+form input{
+    width: 75%;
+    background-color: #3f3f3f;
+    border: 0;
+    height: 5vh;
+}
+
+.zoomit-form{
+    margin-left: 20px;
+}
+
+form img{
+    /* height: 30px; */
+    margin-bottom: 30px;
+    height: 5vh;
+
+}
+::placeholder{
+    font-size: 13px;
+    
+}
+
+form button{
+    background-color: #e51a2d !important;
+    border:none;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 14px;
+    height: 5vh;
+  
+}
